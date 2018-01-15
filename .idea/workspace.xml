@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="52b04f89-0698-4833-9878-b0dde0646f88" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/.postcssrc.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/check-versions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/dev-client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/dev-server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/vue-loader.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/webpack.base.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/webpack.dev.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/build/webpack.prod.conf.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/config/dev.env.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/config/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobileV7/config/prod.env.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobileV7/.eslintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobileV7/dist/css/framework7.ios.colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobileV7/dist/css/framework7.ios.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobileV7/dist/css/framework7.material.colors.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobileV7/dist/css/framework7.material.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mobileV7/dist/js/build.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/.babelrc" afterPath="$PROJECT_DIR$/mobileV7/.babelrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/README.md" afterPath="$PROJECT_DIR$/mobileV7/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/index.html" afterPath="$PROJECT_DIR$/mobileV7/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/package.json" afterPath="$PROJECT_DIR$/mobileV7/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/src/app.vue" afterPath="$PROJECT_DIR$/mobileV7/src/app.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/src/main.js" afterPath="$PROJECT_DIR$/mobileV7/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/src/pages/dynamic-route.vue" afterPath="$PROJECT_DIR$/mobileV7/src/pages/dynamic-route.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobileV7/src/pages/form.vue" afterPath="$PROJECT_DIR$/mobileV7/src/pages/form.vue" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobileV7/dist/css/app.css" afterPath="$PROJECT_DIR$/mobileV7/src/css/app.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/mobileV7/dist/css/build.css" afterPath="$PROJECT_DIR$/mobileV7/static/.gitkeep" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,12 +45,13 @@
     </option>
   </component>
   <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/mobileV7/node_modules" />
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="714" />
+    <option name="x" value="811" />
     <option name="width" value="1752" />
-    <option name="height" value="1019" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -137,6 +107,23 @@
             <path>
               <item name="aits-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="aits-application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aits-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aits-application" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileV7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aits-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aits-application" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileV7" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="aits-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="aits-application" type="462c0819:PsiDirectoryNode" />
+              <item name="mobileV7" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +256,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515984606781</updated>
-      <workItem from="1515984608341" duration="7306000" />
+      <workItem from="1515984608341" duration="7574000" />
     </task>
     <task id="LOCAL-00001" summary="1111">
       <created>1515984827997</created>
@@ -310,21 +297,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7306000" />
+    <option name="totallyTimeSpent" value="7574000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="714" y="0" width="1752" height="1019" extended-state="0" />
+    <frame x="811" y="0" width="1752" height="1038" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3508772" sideWeight="0.50715137" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34324944" sideWeight="0.50715137" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3178733" sideWeight="0.49523243" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3508772" sideWeight="0.49284863" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34324944" sideWeight="0.49284863" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.4976162" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
