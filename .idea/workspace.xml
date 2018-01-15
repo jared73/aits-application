@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="52b04f89-0698-4833-9878-b0dde0646f88" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/aa/bb/aaa" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/.babelrc" afterPath="$PROJECT_DIR$/mobileV7/.babelrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/.eslintrc" afterPath="$PROJECT_DIR$/mobileV7/.eslintrc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/README.md" afterPath="$PROJECT_DIR$/mobileV7/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/dist/css/app.css" afterPath="$PROJECT_DIR$/mobileV7/dist/css/app.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/dist/css/build.css" afterPath="$PROJECT_DIR$/mobileV7/dist/css/build.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/dist/css/framework7.ios.colors.min.css" afterPath="$PROJECT_DIR$/mobileV7/dist/css/framework7.ios.colors.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/dist/css/framework7.ios.min.css" afterPath="$PROJECT_DIR$/mobileV7/dist/css/framework7.ios.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/dist/css/framework7.material.colors.min.css" afterPath="$PROJECT_DIR$/mobileV7/dist/css/framework7.material.colors.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/dist/css/framework7.material.min.css" afterPath="$PROJECT_DIR$/mobileV7/dist/css/framework7.material.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/dist/js/build.js" afterPath="$PROJECT_DIR$/mobileV7/dist/js/build.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/index.html" afterPath="$PROJECT_DIR$/mobileV7/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/package.json" afterPath="$PROJECT_DIR$/mobileV7/package.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/src/app.vue" afterPath="$PROJECT_DIR$/mobileV7/src/app.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/src/main.js" afterPath="$PROJECT_DIR$/mobileV7/src/main.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/src/pages/about.vue" afterPath="$PROJECT_DIR$/mobileV7/src/pages/about.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/src/pages/dynamic-route.vue" afterPath="$PROJECT_DIR$/mobileV7/src/pages/dynamic-route.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/src/pages/form.vue" afterPath="$PROJECT_DIR$/mobileV7/src/pages/form.vue" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/aa/bb/mobileV7/src/routes.js" afterPath="$PROJECT_DIR$/mobileV7/src/routes.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,6 +45,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/111" />
+        <option value="$PROJECT_DIR$/aa/bb/aaa" />
       </list>
     </option>
   </component>
@@ -108,11 +127,6 @@
               <item name="aits-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="aits-application" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="aits-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="aits-application" type="462c0819:PsiDirectoryNode" />
-              <item name="aa" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -129,6 +143,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\workgit\aits-application" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -239,7 +258,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1515984606781</updated>
-      <workItem from="1515984608341" duration="4445000" />
+      <workItem from="1515984608341" duration="5399000" />
     </task>
     <task id="LOCAL-00001" summary="1111">
       <created>1515984827997</created>
@@ -273,7 +292,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4445000" />
+    <option name="totallyTimeSpent" value="5399000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -283,11 +302,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32865497" sideWeight="0.5047676" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33936653" sideWeight="0.5069742" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3178733" sideWeight="0.49523243" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33936653" sideWeight="0.49523243" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33936653" sideWeight="0.49302575" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.4976162" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -375,6 +394,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/aa/bb/aaa">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           <folding />
         </state>
       </provider>
