@@ -20,13 +20,15 @@ import AppStyles from './css/app.css'
 
 // Import Routes
 import Routes from './routes.js'
-
+import $ from 'jquery'
 // Import App Component
 import App from './app'
-
+import axios from 'axios'
+//初始化axios
+Vue.prototype.axios = axios;
+axios.defaults.withCredentials=true;
 // Init F7 Vue Plugin
 Vue.use(Framework7Vue)
-
 // Init App
 new Vue({
   el: '#app',
