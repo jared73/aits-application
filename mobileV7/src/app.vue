@@ -112,10 +112,10 @@
                                             {{menu.bmenuName}} &nbsp;&nbsp;&nbsp; 原价：{{menu.bprice}}元
                                             &nbsp;&nbsp;&nbsp;
                                             <template>
-                                            <button class="cut" @click="cuts(menu)">-</button>
-                                            <span :id="menu.bmenuId">{{getNo(menu)}}</span>
-                                            <button class="add" @click="add(menu)">+</button>
-                                        </template>
+                                                <button class="cut" @click="cuts(menu)">-</button>
+                                                <span :id="menu.bmenuId">{{getNo(menu)}}</span>
+                                                <button class="add" @click="add(menu)">+</button>
+                                            </template>
 
                                         </li>
                                     </ul>
@@ -194,15 +194,17 @@
                 menuList: '',
                 phone: '',
                 myurl: '',
-                currentMenuPage:0,
-                order:{
-                    shipNo:'',
-                    menuList:[]
+                currentMenuPage: 0,
+                order: {
+                    shipNo: '',
+                    menuList: []
                 },
-                menuOrder:{
-                    menuId:'',
-                    bnum:'',
-                }
+                menuOrder: {
+                    menuId: '',
+                    bnum: '',
+                },
+                mOrder: '',
+                pnum:''
             }
         },
         created() {
@@ -227,8 +229,8 @@
         },
         computed: {
             data: function () {
-               // var menuOrder={};
-                menuOrder=JSON.parse(JSON.stringify(this.templateData)); //this.templateData是父组件传递的对象
+                var menuOrder = {};
+                menuOrder = JSON.parse(JSON.stringify(this.templateData)); //this.templateData是父组件传递的对象
                 return menuOrder;
             }
         },
@@ -248,66 +250,61 @@
                     console.log(response)
                 });
             },
-            getNo:function (menu) {
-                var menuId=menu.bmenuId;
-                var index=this.order.menuList.findIndex(function(item){
+            getNo: function (menu) {
+                var menuId = menu.bmenuId;
+                var index = this.order.menuList.findIndex(function (item) {
                     return item.menuId == menuId;
                 });
-                var num=0;
-                if(index!=-1){
-                    num=this.order.menuList[index].bnum;
+                var num = 0;
+                if (index != -1) {
+                    num = this.order.menuList[index].bnum;
                 }
 
                 return num;
             },
-            cuts:function(menu){
-                var menuId=menu.bmenuId;
-
-                var index=this.menuList.findIndex(function(item){
+            cuts: function (menu) {
+                var menuId = menu.bmenuId;
+                var oindex = this.order.menuList.findIndex(function (item) {
                     //根据item中的id属性来判断这个item是否是上面id中
                     //对应的数据，如果是返回一个true ,否返回false,继续下面的一条数据的遍历，以此类推
-                    return item.bmenuId == menuId; //如果返回true，那么findIndex方法会将这个item对应的id返回到外面接受
-                });
-                var pnum=this.menuList[index].bnum;
-                this.menuList[index].bnum=pnum-1;
-
-                var oindex=this.order.menuList.findIndex(function(item){
-                   return item.menuId == menuId;
+                    return item.menuId == menuId;//如果返回true，那么findIndex方法会将这个item对应的id返回到外面接受
                 });
 
-                this.menuOrder.menuId=menuId;
-                this.menuOrder.bnum= this.menuList[index].bnum;
-                var mOrder=this.menuOrder;
+                oindex == -1 ? this.pnum=0:this.pnum = this.order.menuList[oindex].bnum;
+                if (this.pnum > 0) {
+                    this.pnum=this.pnum-1;
 
-                oindex == -1 ? this.order.menuList.push(mOrder)
-                    :Object.assign(this.order.menuList[oindex],this.menuOrder);
+                    this.menuOrder.menuId = menuId;
+                    this.menuOrder.bnum = this.pnum ;
+
+                    this.mOrder = {menuId: menuId, bnum: this.pnum};
+                    oindex == -1 ? this.order.menuList.push(this.mOrder)
+                        : Object.assign(this.order.menuList[oindex], this.menuOrder);
+
+                }
 
 
             },
-            add:function(menu){
-                var menuId=menu.bmenuId;
-
-                var index=this.menuList.findIndex(function(item){
+            add: function (menu) {
+                var menuId = menu.bmenuId;
+                var oindex = this.order.menuList.findIndex(function (item) {
                     //根据item中的id属性来判断这个item是否是上面id中
                     //对应的数据，如果是返回一个true ,否返回false,继续下面的一条数据的遍历，以此类推
-                    return item.bmenuId == menuId; //如果返回true，那么findIndex方法会将这个item对应的id返回到外面接受
-                });
-                var pnum=this.menuList[index].bnum;
-                this.menuList[index].bnum=pnum+1;
-
-                var oindex=this.order.menuList.findIndex(function(item){
-                    return item.menuId == menuId;
+                    return item.menuId == menuId;//如果返回true，那么findIndex方法会将这个item对应的id返回到外面接受
                 });
 
-                this.menuOrder.menuId=menuId;
-                this.menuOrder.bnum= this.menuList[index].bnum;
-                var mOrder=this.menuOrder;
-                oindex == -1 ? this.order.menuList.push(mOrder)
-                    :Object.assign(this.order.menuList[oindex],this.menuOrder);
+                oindex == -1 ? this.pnum=0:this.pnum = this.order.menuList[oindex].bnum;
+                this.pnum=this.pnum+1;
+                // var pnum=this.menuList[index].bnum+1;
+                this.menuOrder.menuId = menuId;
+                this.menuOrder.bnum = this.pnum ;
 
-
-
+                this.mOrder = {menuId: menuId, bnum: this.pnum};
+                oindex == -1 ? this.order.menuList.push(this.mOrder)
+                    : Object.assign(this.order.menuList[oindex], this.menuOrder);
+                // this.menuList[index].bnum = this.pnum;
             }
+
         }
     }
 </script>
